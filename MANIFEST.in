@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tunas_document *.css
+recursive-include tunas_document *.csv
+recursive-include tunas_document *.html
+recursive-include tunas_document *.ico
+recursive-include tunas_document *.js
+recursive-include tunas_document *.json
+recursive-include tunas_document *.md
+recursive-include tunas_document *.png
+recursive-include tunas_document *.py
+recursive-include tunas_document *.svg
+recursive-include tunas_document *.txt
+recursive-exclude tunas_document *.pyc
